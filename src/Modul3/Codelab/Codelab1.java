@@ -6,6 +6,8 @@ public class Codelab1 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
+        System.out.println("bagas");
+
         try {
             System.out.print("Masukkan usia Anda: ");
             int age = scan.nextInt();

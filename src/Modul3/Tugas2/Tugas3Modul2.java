@@ -28,7 +28,6 @@ public class Tugas3Modul2 {
 
         Pemesanan pemesanan = new Pemesanan(hari, jumlah);
         double totalHargaticket = 0;
-        //rename
 
         if (nama.equalsIgnoreCase("Avengers")) {
             totalHargaticket = diskon.hitungHargaDiskon(pemesanan, film1);
@@ -44,7 +43,7 @@ public class Tugas3Modul2 {
          * jika senin - jumat blok code yang dipanggil : return film.hargaFilm * pemesanan.jumlahTiket();
          * jika sabtu dan minggu blok code yang dipanggil : return film.hargaFilm * pemesanan.jumlahTiket() * Diskon;
          *
-         * ketika user mengetikkan avengers dia akan memanggil method hitungHargaDiskon di class Tugas3Modul2Diskon
+         * ketika user mengetikkan spiderman dia akan memanggil method hitungHargaDiskon di class Tugas3Modul2Diskon
          * jika senin - jumat blok code yang dipanggil : return film.hargaFilm * pemesanan.jumlahTiket();
          * jika sabtu dan minggu blok code yang dipanggil : return film.hargaFilm * pemesanan.jumlahTiket() * Diskon;
          */
@@ -52,7 +51,8 @@ public class Tugas3Modul2 {
         System.out.println("\nTotal harga tiket: Rp" + totalHargaticket);
         Tugas3Modul2Film.tampilkanFilmDiskon2();
 
-        System.out.println("dahlah");
+        System.out.println("aman");
+
         input.close();
     }
 }

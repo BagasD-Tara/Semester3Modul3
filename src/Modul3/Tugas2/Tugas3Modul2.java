@@ -51,7 +51,7 @@ public class Tugas3Modul2 {
         System.out.println("\nTotal harga tiket: Rp" + totalHargaticket);
         Tugas3Modul2Film.tampilkanFilmDiskon2();
 
-        System.out.println("aman");
+        System.out.println("waduh");
 
         input.close();
     }

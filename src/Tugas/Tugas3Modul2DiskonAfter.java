@@ -8,7 +8,7 @@ public class Tugas3Modul2DiskonAfter {
         if (parameter.hari().equalsIgnoreCase("Sabtu") || parameter.hari().equalsIgnoreCase("Minggu")) {
             return film.hargaFilm * parameter.jumlahTiket() * Diskon;
         }
-        return film.hargaFilm * parameter.jumlahTiket();6
+        return film.hargaFilm * parameter.jumlahTiket();
     }
 }
 
